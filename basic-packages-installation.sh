@@ -48,17 +48,14 @@ sudo snap install beekeeper-studio
 sudo snap install gitkraken
 sudo snap install insomnia
 sudo snap install nordpass
-sudo snap install chromium
 sudo snap install vlc
 sudo snap install bitwarden
 sudo snap install audacity
 sudo snap install inkscape
 sudo snap install qalculate
 sudo snap install gimp
-sudo snap install polar-bookshelf
 sudo snap install umbrello
 sudo snap install standard-notes
-sudo snap install zenkit-todo
 sudo snap install krita
 
 curl -sSL https://dist.crystal-lang.org/apt/setup.sh | sudo zsh
@@ -72,9 +69,13 @@ sudo apt -y install libz-dev
 
 sudo apt -y install crystal
 
+sudo apt -y install git wget flex bison gperf cmake ninja-build ccache libffi-dev libssl-dev dfu-util
+
 sudo apt -y update
+
 sudo apt -y install tlp tlp-rdw
 sudo tlp start
+
 
 sudo apt -y autoclean
 sudo apt -y clean
@@ -83,6 +84,12 @@ sudo apt -y autoremove
 sudo apt -y install xclip
 sudo apt -y install libgconf-2-4
 sudo apt -y install julia 
+
+sudo apt install ubuntu-restricted-extras
+sudo apt install fonts-firacode fonts-cascadia-code fonts-inconsolata fonts-monofur fonts-mononoki fonts-monoid 
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add -
+sudo apt install fonts-firacode fonts-cascadia-code fonts-inconsolata fonts-monofur fonts-mononoki fonts-monoid  fonts-cantarell
+sudo apt-get install chrome-gnome-shell
 
 sudo add-apt-repository ppa:mmstick76/alacritty -y
 sudo apt -y install alacritty
@@ -124,4 +131,21 @@ sudo apt -y install fonts-firacode \
  fonts-mononoki \
  fonts-monoid
 
-
+sudo apt install clang libjpeg-turbo8-dev libjpeg-dev libjpeg9 libjpeg-tools
+sudo apt install stacer
+sudo apt install urxvt
+sudo apt install python-nautilus
+sudo apt install fancontrol 
+sudo apt install lm-sensors 
+sudo apt install lm-sensors xsensors fancontrol
+sudo apt install stress
+sudo snap install insomnia-designer
+sudo snap install obs-studio
+sudo apt install software-properties-common
+sudo apt install sshpass
+sudo apt install libsensors5
+sudo apt install libsensors-config
+sudo apt install libsensors4-dev
+sudo apt install libgc-dev 
+sudo apt install clang
+sudo apt install libgc-dev
